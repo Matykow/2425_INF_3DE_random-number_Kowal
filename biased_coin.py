@@ -1,7 +1,7 @@
 import random
 
 def flip_biased_coin(p):
-    # Tvůj kód zde
+    return "Head" if random.random() < p else "Tails"
     pass
 
 # Otestování funkce
