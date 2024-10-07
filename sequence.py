@@ -2,7 +2,7 @@ import random
 
 def generate_sequence(n):
     for _ in range(n):
-        print(random.randint(1, 1000))
+        print(random.randint(1,99))
     pass
 
 # Otestování funkce
